@@ -31,7 +31,11 @@ Aplicación web educativa que genera casos de estudio sobre **Gestión de Metada
 
 ```bash
 git clone https://github.com/tuusuario/generador_iso11179.git
+```
+```
 cd generador_iso11179
+```
+```
 npm install
 ```
 
