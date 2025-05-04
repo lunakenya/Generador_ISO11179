@@ -1,0 +1,123 @@
+/* Estilos base */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  line-height: 1.7;
+  color: #333;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Títulos */
+h1 {
+  color: #1a73e8;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+h2, h3 {
+  color: #444;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Botones */
+button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 12px;
+  display: block;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: #155cb0;
+}
+
+/* Inputs */
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* Mensaje de confirmación */
+#confirmacionHumano {
+  margin-top: 8px;
+  font-weight: 500;
+  color: green;
+}
+
+/* Contenedores dinámicos */
+div.resultado {
+  margin-top: 20px;
+  padding: 18px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+/* Markdown generado */
+.resultado h4, .resultado h5 {
+  margin-top: 15px;
+  color: #1a1a1a;
+}
+
+.resultado p {
+  margin: 10px 0;
+}
+
+/* Listas */
+ul, ol {
+  padding-left: 22px;
+}
+
+strong {
+  font-weight: bold;
+  color: #222;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  textarea {
+    font-size: 14px;
+  }
+}
+
+.calificacion-container p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+.justificado {
+  text-align: justify;
+}
+.contenido-justificado {
+  text-align: justify;
+}

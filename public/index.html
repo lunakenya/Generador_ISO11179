@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>📝Generador ISO/IEC 11179 + Auditoría</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <h1>📄 Generador de Casos ISO/IEC 11179 + Auditoría con IA</h1>
+
+  <!-- Botón para generar caso -->
+  <button onclick="generarCaso()">🎲 Generar Caso de Estudio</button>
+  <div id="casoContainer" class="resultado"></div>
+
+  <!-- Sección de análisis humano -->
+  <h2>📝 Tu análisis respecto al caso presentado (tipo auditoría)</h2>
+  <textarea id="analisisUsuario" placeholder="Escribe tu análisis aquí..."></textarea>
+  <button onclick="guardarAnalisis()">📥 Enviar Análisis Humano</button>
+  <div id="confirmacionHumano"></div>
+
+  <!-- Botón para generar auditoría con IA -->
+  <button onclick="generarAuditoria()">🤖 Generar Auditoría con IA</button>
+  <div id="auditoriaContainer" class="resultado"></div>
+
+  <!-- Botón para comparación -->
+  <button onclick="compararResultados()">⚖️ Comparar Resultados</button>
+  <div id="comparacionContainer" class="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
