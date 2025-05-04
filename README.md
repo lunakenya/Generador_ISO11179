@@ -36,7 +36,9 @@ npm install
 ```
 
 🔐 Configuración
+
 Crea un archivo .env con tu clave de Gemini API:
+
 GEMINI_API_KEY=tu_clave_aqui
 
 
